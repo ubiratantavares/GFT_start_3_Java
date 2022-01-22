@@ -173,7 +173,6 @@ public class ControleDeFluxo {
     }
 
     private static void switchNumero() {
-
         int numero = 4;
         switch (numero){
             case 1:
@@ -194,7 +193,6 @@ public class ControleDeFluxo {
     }
 
     private static void switchFerias() {
-
         String mes = "dezembro";
         switch (mes) {
             case "dezembro":
