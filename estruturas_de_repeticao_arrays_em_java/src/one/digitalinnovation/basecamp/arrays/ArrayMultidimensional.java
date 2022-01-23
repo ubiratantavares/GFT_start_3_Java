@@ -16,7 +16,7 @@ public class ArrayMultidimensional {
         int[][] M = new int[4][4];
 
         for(int i = 0; i < M.length; i++) {
-            for( int j = 0; j < M[i].length; j++) {
+            for(int j = 0; j < M[i].length; j++) {
                 M[i][j] = random.nextInt(9);
             }
         }
@@ -28,5 +28,11 @@ public class ArrayMultidimensional {
             }
             System.out.println();
         }
+
+        int num = 5, count = 1;
+        do {
+            num += count;
+            System.out.println(num);
+        } while (count <= 3);
     }
 }
